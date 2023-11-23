@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+#p{display: flex;}
+.glavno{
+
+    background-color: orange;
+    width: 800px;
+    height: 500px;
+
+}
+#stupac1{
+    background-color: red;
+    width:150px;
+    height: 500px;
+    
+}
+#stupac2{
+    background-color: red;
+    width: 645px;
+    height: 500px;
+
+}
+
+
+</style>
+</head>
+<body>
+    <div class="glavno" id="p">
+        <div class="p" id="stupac1">
+         <div class="prvo" style="width:145px; height: 120px; text-align: center; color: white; border-bottom:5px solid orange; border-right:5px solid orange;">
+            FSRE Mostar
+         </div>
+         <div class="drugo" style="width: 145px; height: 375px; text-align: center; border-right: 5px solid orange;">
+            <br>Naslovna</br>
+            <br>Novosti</br>
+        </div>
+    </div>
+    <div class="p" id="stupac2">
+        <div class="trece" style="width:100px;height:50px ; border: 3px solid blue; padding-right: 100px;">
+            Akademska godina 2023/24
+        </div>
+        <div class="cetvrto" style="width: 150px height 50px; background-color: red; border:3px solid orange;"></div>
+
+    </div>
+    </div>
+
+</body>
+</html>
